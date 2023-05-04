@@ -1,7 +1,7 @@
 provider "aws" {
   region = "ap-southeast-1"
-  access_key = "AKIAQLFJ73WDJ5IOQYNB"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_key_pair" "webserver-key" {
